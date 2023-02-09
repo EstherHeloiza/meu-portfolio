@@ -1,0 +1,63 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "inter";
+}
+
+p {
+  margin: 0 2rem 0 2rem;
+}
+
+.inicio {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  align-items: center;
+}
+
+.inicio__foto {
+  width: 25%;
+  border-radius: 300%;
+  margin: 10rem;
+}
+
+.portfolio {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.nome {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.sobre {
+  background-color: #C8DEEE;
+  padding: 20rem 30rem 0rem 30rem;
+  height: 100vh;
+}
+
+.sobre__texto {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.conhecimentos {
+  height: 100vh;
+  padding: 10rem;
+}
+
+#conhecimentos {
+  font-size: 25px;
+  text-align: center;
+  margin: 5rem 0 10rem 0;
+}
+
+.conhecimentos__img {
+  width: 12rem;
+  margin: 3rem;
+}
+
